@@ -1,0 +1,8 @@
+# Optional — required only for .pt models (PyTorch).
+# For NVIDIA GPU (CUDA 12.6) install torch first:
+#   uv pip install --python .venv\Scripts\python.exe torch torchvision --index-url https://download.pytorch.org/whl/cu126
+# For CPU-only:
+#   uv pip install --python .venv\Scripts\python.exe torch torchvision
+torch>=2.4
+torchvision>=0.19
+ultralytics>=8.4.0

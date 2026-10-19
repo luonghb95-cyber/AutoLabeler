@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local artefacts
+tools/shots/
+tools/*.zip
+*.zip
+*.pt
+*.onnx
+*.engine
+exp-22/
+exp-22.*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
